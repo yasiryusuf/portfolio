@@ -74,4 +74,13 @@ a:hover {text-decoration: none;
   main {width:100%;
   padding-right:20px;margin: -10px;font-size: 15px; height: auto;}
 
+  aside {width:100%; padding:10px;margin: -10px;float:none;height: auto;font-size: 15px;}
+  aside h3 {font-size: 20px; padding-left: 10px;}
+  aside ul {}
+  aside ul li {}
+
+  .container{width:100%; height: auto;}
+
+  footer{width:100%; padding:20px; height: auto; margin:-8px;}
+  footer h4{font-size: 20px;}
 }
