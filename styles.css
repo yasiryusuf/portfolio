@@ -36,6 +36,12 @@ aside {
   height: 505px;
 }
 
+footer{
+  background-color:#AFBCD6  ;
+  padding:20px;
+  text-align: center;
+  height:100px;
+}
 a {text-decoration: none;
     list-style-type: none;
     border-right: 2px solid white;
@@ -46,12 +52,15 @@ a {text-decoration: none;
 a:hover {text-decoration: none;
     list-style-type: none;
     font-size: 25px; float: right;
-  margin-right: 8px; color:#4B69A0   ; border-right: 2px solid black;
+  margin-right: 8px; color:#4B69A0; border-right: 2px solid black;
 }
 
 @media screen and (max-width: 480px) {
   header {
     width:100%; padding:10px; margin-left: -10px; font-size: 15px; height:auto;
   }
+  aside {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
+
+  footer{width:100%; padding:10px; height: auto; margin:-8px;}
 
   .wrapper{width:100%; height: auto;}
