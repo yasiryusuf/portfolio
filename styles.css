@@ -37,7 +37,7 @@ aside {
 }
 
 footer{
-  background-color:#AFBCD6  ;
+  background-color:#AFBCD6;
   padding:20px;
   text-align: center;
   height:100px;
@@ -60,6 +60,8 @@ a:hover {text-decoration: none;
     width:100%; padding:10px; margin-left: -10px; font-size: 15px; height:auto;
   }
   aside {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
+  main {width:100%;
+  padding:10px;margin: -10px;font-size: 13px; height: auto;}
 
   footer{width:100%; padding:10px; height: auto; margin:-8px;}
 
