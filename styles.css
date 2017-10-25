@@ -57,7 +57,7 @@ a:hover {text-decoration: none;
 
 @media screen and (max-width: 480px) {
   header {
-    width:100%; padding:10px; margin-left: -10px; font-size: 15px; height:auto;
+    display:none;
   }
   aside {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
   main {width:100%;
