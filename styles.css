@@ -35,9 +35,17 @@ aside {
   padding:10px;
   display: inline-block;
   float: right;
-  height: 506px;
+  height: 487px;
 }
 aside h3{text-align: center; font-size: 25px;}
+aside h3:hover {text-align: center; font-size: 25px; color:#E6ECED; border-bottom: 1px dashed gray;
+    border-top: 1px dashed white; cursor: pointer;}
+main h1{font-size: 25px;}
+
+main h1:hover { font-size: 25px; color:#E6ECED; border-bottom: 1px dashed gray;
+    border-top: 1px dashed white; cursor: pointer;
+
+}
 
 footer{
   background-color:#C2DBF4;
