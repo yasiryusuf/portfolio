@@ -1,1 +1,17 @@
-body{background-color: red;}
+
+body{background-color: #E8EBEE;
+  margin:auto;
+
+}
+
+header {
+  width: 900px;
+  margin:auto;
+}
+.wrapper{
+  width: 900px;
+  height:800px;
+  margin:auto;
+  background-color: #C1CDD6;
+
+}
