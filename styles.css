@@ -15,6 +15,9 @@ header {
 
 .wrapper{width: 800px;
   margin:auto;
+  border-right: 2px groove;
+  border-left:2px groove;
+  
 }
 main{
   background-color:#4F90D1;
@@ -31,6 +34,17 @@ aside {
   display: inline-block;
   float: right;
   height: 505px;
+}
+
+a {text-decoration: none;
+    list-style-type: none;
+    font-size: 25px; float: right;
+  margin-right: 8px; color: black;}
+
+a:hover {text-decoration: none;
+    list-style-type: none;
+    font-size: 25px; float: right;
+  margin-right: 8px; color:black; border-bottom: 2px solid white;
 }
 
 @media screen and (max-width: 480px) {
