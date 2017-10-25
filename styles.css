@@ -1,17 +1,26 @@
 
-body{background-color: #E8EBEE;
+body{
+  background-color: #E8EBEE;
   margin:auto;
 
 }
 
 header {
-  width: 900px;
-  margin:auto;
+    background-color: #C2DBF4;
+    color: white;
+    text-align: center;
+    height: 100px;
+    overflow: auto;
 }
-.wrapper{
-  width: 900px;
-  height:800px;
+.wrapper{width: 800px;
   margin:auto;
-  background-color: #C1CDD6;
+
 
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    width:100%; padding:10px; margin-left: -10px; font-size: 15px; height:auto;
+  }
+
+  .wrapper{width:100%; height: auto;}
