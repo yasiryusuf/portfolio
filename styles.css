@@ -66,3 +66,12 @@ a:hover {text-decoration: none;
   footer{width:100%; padding:10px; height: auto; margin:-8px;}
 
   .wrapper{width:100%; height: auto;}
+
+  @media screen and (max-width: 600px) {
+  header {
+    width:100%; padding:10px; margin-left: -10px; font-size: 15px; height:auto;
+  }
+  main {width:100%;
+  padding-right:20px;margin: -10px;font-size: 15px; height: auto;}
+
+}
