@@ -36,53 +36,58 @@ nav{
   height:80px;
   background-color: #74B1BB;
   border-top: 3px solid black;
-  border-bottom: 3px solid black;
+
 }
 .Education {
   background-color:#E6ECED;
   height: 400px;
   width: 50%;
   border-right: 3px solid black;
+  border-top: 3px solid black;
 }
 .work-experience {
   background-color:#CBD5D7;
   height:400px;
   width:50%;
   border-left: 3px solid black;
+  border-top: 3px solid black;
 }
 
 .Contact {
-  height:50px;
+  height:100px;
   background-color:  #74B1BB;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.Contact2 {
+  height:150px;
+  background-color: #CBD5D7;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 
 
 
-
-
-
-/*body{
+body{
   background-color: #E8EBEE;
   margin:auto;
 
 
-
+/*
 a:hover {text-decoration: none;
     list-style-type: none;
     font-size: 25px; float: right;
   margin-right: 8px; color:#4B69A0; border-right: 2px solid black;
 }*/
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   header {
     display:none;
   }
-  aside {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
-  main {width:100%;
-  padding:10px;margin: -10px;font-size: 13px; height: auto;}
-
-  footer{width:100%; padding:10px; height: auto; margin:-8px;}
-
-  .wrapper{width:100%; height: auto;}
-
-}*/
+.work-experience {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
+.Education {width:100%;
+  padding:10px;margin: -10px;font-size: 13px; height: auto;
+}
