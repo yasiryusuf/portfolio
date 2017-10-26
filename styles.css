@@ -1,14 +1,37 @@
 .header {
-  background-color: gray;
+  background-color: #74B1BB;
   height:100px;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid black;
 }
 
 nav{
   float: right;
-  font-size: 20px;
+  font-size: 30px;
   color:black;
   margin-top: 30px;
+  margin-right: 10px;
 }
+
+.About {
+  background-color: #E6ECED;
+}
+
+.ImageP{
+  background-color: #CBD5D7;
+  height: 340px;
+}
+
+.ImageP img {
+  margin-left: 100px;
+}
+.Experience {
+  height:80px;
+  background-color: #74B1BB;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid black;
+}
+
 
 
 
