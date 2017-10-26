@@ -69,19 +69,10 @@ nav{
   border-left: 2px solid black;
 }
 
-
-
 body{
   background-color: #E8EBEE;
   margin:auto;
 
-
-/*
-a:hover {text-decoration: none;
-    list-style-type: none;
-    font-size: 25px; float: right;
-  margin-right: 8px; color:#4B69A0; border-right: 2px solid black;
-}*/
 
 @media screen and (max-width: 480px) {
   header {
