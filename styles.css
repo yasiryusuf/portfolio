@@ -72,12 +72,13 @@ nav{
 body{
   background-color: #E8EBEE;
   margin:auto;
-
+}
 
 @media screen and (max-width: 480px) {
   header {
     display:none;
   }
+  img {text-align: center;}
 .work-experience {width:100%; padding:10px;float:none;height: auto;font-size: 15px;}
 .Education {width:100%;
   padding:10px;margin: -10px;font-size: 13px; height: auto;
